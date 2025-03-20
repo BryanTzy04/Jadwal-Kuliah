@@ -4,13 +4,16 @@
     <title>MY JADWAL - EDIT ONLY</title>
 
     <script>
+    document.addEventListener("DOMContentLoaded", function () {
         var password = "kuliah123"; // Ganti dengan password lo
         var input = prompt("Masukkan password untuk mengakses halaman:");
 
         if (input !== password) {
             document.body.innerHTML = "<h2>Akses Ditolak! 🚫</h2><p>Password salah.</p>";
         }
-    </script>
+    });
+</script>
+
 
     <style>
         /* cspell:disable-file */
